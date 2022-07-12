@@ -1,9 +1,4 @@
-public class FooImpl implements Foo {
+public abstract class FooImpl implements Foo {
 
-
-    public static void main(String[] args)
-    {
-        Foo foo = new FooImpl();
-
-    }
+    public abstract void f();
 }
